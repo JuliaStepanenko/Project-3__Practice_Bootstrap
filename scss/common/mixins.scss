@@ -1,0 +1,10 @@
+@mixin head_line_wid($banner_title_line){
+ width: $banner_title_line;
+}
+
+@mixin head_title_icons($icon_w, $icon_h, $icon_o){
+  width: $icon_w;
+  height: $icon_h;
+  opacity: $icon_o;
+}
+

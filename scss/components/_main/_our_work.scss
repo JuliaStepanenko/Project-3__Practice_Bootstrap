@@ -1,0 +1,28 @@
+.our_work{
+  padding: 80px 0 105px;
+
+  .container{
+
+    .our_work__title{
+      .headline_main{
+        .style_heading {
+          @include head_line_wid(22%);
+        }
+      }
+    }
+
+
+    .portfolio_top,
+    .portfolio_bot {
+      div{
+          width: 150px;
+          height: 150px;
+          background-color: #8a8a8a;
+          &:hover{
+            background-color: #1ca399;
+          }
+      }
+    }
+
+  }
+}
