@@ -46,7 +46,7 @@
                   @extend %display_j_center;
                   width: 30px;
                   height: 30px;
-                  background-color: #e4e4e4;
+                  background-color: $ct_banner_secjnd;
                   transform: rotate(45deg);
                   border-radius: 5px;
                   border: 1px solid $bG_col_offers_active;
@@ -61,7 +61,7 @@
                 }
 
                 .active_link_twit{
-                  background-color: #383838;
+                  background-color: $ct_banner_main;
                   opacity: 1;
                   z-index: 1;
                 }

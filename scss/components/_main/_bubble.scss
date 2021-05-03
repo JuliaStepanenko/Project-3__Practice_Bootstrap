@@ -1,6 +1,6 @@
 .bubble{
   padding: 60px 0;
-  background-color: #8a8a8a;
+  background-color: $bg_col_banner;
 
   .container{
     .row{
@@ -10,7 +10,7 @@
 
         p{
           margin: 0;
-          color: #383838;
+          color: $bg_col_icon_offers;
           font-family: $font_family_h1;
           font-size: $fs_banner_p_style;
           img{
