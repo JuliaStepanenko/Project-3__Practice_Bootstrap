@@ -29,22 +29,10 @@
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
             @extend %display_j_center;
-          }
 
-          .more_features__items_monitor{
-            margin-left: 2px;
-          }
-
-          .more_features__items_puzzle{
-            margin-right: 4px;
-          }
-
-          .more_features__items_list{
-            margin-left: -1px;
-          }
-
-          .more_features__items_ball{
-            margin-left: 2px;
+            img{
+              width: 50%;
+            }
           }
         }
 

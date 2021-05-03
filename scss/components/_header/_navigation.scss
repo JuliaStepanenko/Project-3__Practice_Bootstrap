@@ -66,6 +66,8 @@
                     border: 1px solid $ct_banner_marc;
                     box-shadow: initial;
                     padding: 0 10px;
+                    display: flex;
+                    align-items: center;
 
                     &:hover {
                       background-color: white;
@@ -76,6 +78,18 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px ) {
+  .navigation{
+    .container{
+      .row{
+        .col-xxl-9{
+          margin-top: 20px;
         }
       }
     }

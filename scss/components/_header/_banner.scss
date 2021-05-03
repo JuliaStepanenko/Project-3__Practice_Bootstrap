@@ -52,9 +52,25 @@
             margin-bottom: 45px;
           }
 
-          .banner_icon{
-            img{
-              width: 9%;
+          .link_anchor{
+            @extend %display_column;
+
+            .chevron_down{
+              width: 58px;
+              height: 58px;
+              border: 4px solid $bG_col_offers_active;
+              border-radius: 50%;
+
+              a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                  width: 90%;
+                  margin-top: 5px;
+                }
+              }
             }
           }
         }
