@@ -133,12 +133,15 @@
 
         .item_link {
           padding: 0;
+          display: flex;
+          justify-content: center;
 
           .row {
             padding: 0;
             display: flex;
             justify-content: flex-end;
             text-align: center;
+            width: 100%;
 
             div {
               background-color: #e4e4e4;

@@ -23,6 +23,9 @@
 }
 
 %style_heading_atrib{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   text-align: center;
   color: $ct_banner_main;
   font-family: $font_family_h1;

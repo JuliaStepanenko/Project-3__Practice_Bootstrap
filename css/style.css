@@ -37,6 +37,9 @@ body {
 }
 
 .headline_main_wrapper .headline_main .style_heading, .headline_banner .style_heading {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
   color: #383838;
   font-family: "Raleway-ExtraBold", sans-serif;
@@ -198,6 +201,11 @@ body {
 .headline_main_wrapper .headline_main .style_heading {
   width: 25%;
 }
+@media (max-width: 510px) {
+  .headline_main_wrapper .headline_main .style_heading {
+    font-size: 18px;
+  }
+}
 .headline_main_wrapper .headline_main .style_wrapper_right {
   width: 50%;
 }
@@ -246,8 +254,18 @@ body {
   position: absolute;
   width: 40px;
   height: 40px;
-  left: 49.5%;
+  left: 49%;
   top: -20px;
+}
+@media (max-width: 1200px) {
+  .icon-base:before, .icon-base:after {
+    left: 48%;
+  }
+}
+@media (max-width: 770px) {
+  .icon-base:before, .icon-base:after {
+    left: 47%;
+  }
 }
 
 .icon-base:before {
@@ -351,6 +369,10 @@ body {
 .header .navigation {
   padding: 30px 0;
   border-bottom: 2px solid #dedede;
+}
+.header .navigation .container .row .col-xxl-9 {
+  display: flex;
+  justify-content: flex-end;
 }
 .header .navigation .container .row .col-xxl-9 nav {
   padding: 0;
@@ -905,12 +927,15 @@ body {
 }
 .facts .facts_wrapper_link .container .row .item_link {
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 .facts .facts_wrapper_link .container .row .item_link .row {
   padding: 0;
   display: flex;
   justify-content: flex-end;
   text-align: center;
+  width: 100%;
 }
 .facts .facts_wrapper_link .container .row .item_link .row div {
   background-color: #e4e4e4;

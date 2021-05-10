@@ -53,6 +53,9 @@
     .style_heading {
       @extend %style_heading_atrib;
       @include head_line_wid(25%);
+      @media (max-width: 510px ) {
+        font-size: 18px;
+      }
     }
 
     .style_wrapper_right {
